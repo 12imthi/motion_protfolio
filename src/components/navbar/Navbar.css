@@ -1,0 +1,85 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    font-size: 22px;
+}
+.nav-connect {
+    padding: 20px 40px ;
+    border-radius: 50px;
+    background: linear-gradient(267deg, orange,blue);
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-connect:hover {
+    transform: scale(1.05);
+}
+.anchor-link {
+    color: white;
+    text-decoration: none;
+}
+.nav-mob-close,.nav-mob-open {
+    display: none;
+}
+
+/* Style for the logo in the navbar */
+.navbar-logo {
+    width: 120px; /* Slightly larger size */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-logo {
+    transform: scale(1); /* Slight zoom-in effect on hover */
+    box-shadow: 0 5px 10px white; /* Add a subtle shadow on hover */
+    border-radius: 10px; /* Optional: round the edges a little */
+}
+
+@media (max-width:768px) {
+    .navbar {
+        margin: 20px 50px;
+    }
+    .nav-connect {
+        display: none;
+    }
+    .nav-mob-open {
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+    .nav-mob-close {
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 290px;
+        width: 30px;
+    }
+    .nav-menu {
+        position: fixed;
+        flex-direction: column;
+        align-items: flex-start;
+        top: 0;
+        /* left: 0px; */
+        background-color: #1f0016;
+        width: 390px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.7s;
+        right: -390px;
+    }
+    .nav-menu li {
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
