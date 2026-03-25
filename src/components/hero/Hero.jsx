@@ -13,9 +13,11 @@ function Hero() {
         </p>
         <div className="hero-action">
             <div className="hero-connect">
-              <AnchorLink className='anchor-link' href="#about">
-                Know More About Me
-              </AnchorLink>
+            
+                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+           Get Going My work
+              </a>
+              
             </div>
             <div className="hero-resume">
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">

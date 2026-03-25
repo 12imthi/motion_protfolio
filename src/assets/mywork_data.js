@@ -15,7 +15,7 @@ const mywork_data = [
         w_no:1,
         w_name:"Web design",
         w_img:project1_img,
-        w_link : 'https://glistening-dragon-43dc39.netlify.app'
+        w_link : 'https://www.behance.net/mdimthi'
     },
     {
         w_no:2,
