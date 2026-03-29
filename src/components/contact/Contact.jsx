@@ -78,10 +78,10 @@ function Contact() {
               <img src={location_icon} alt="" />
               <p>+918610825009</p>
             </div>
-            <div className="contact-detail">
+            {/* <div className="contact-detail">
               <img src={call_icon} alt="" />
               <p>Bengaluru</p>
-            </div>
+            </div> */}
           </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right">

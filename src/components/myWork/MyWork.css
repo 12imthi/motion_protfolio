@@ -78,3 +78,75 @@
         width: 300px;
     }
 }
+.myWork {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.myWork-title {
+  margin-bottom: 40px;
+}
+
+/* GRID */
+.myWork-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.project-card {
+  text-decoration: none;
+  display: block;
+}
+
+/* WRAPPER */
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+/* IMAGE */
+.projectImage {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s;
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  transition: 0.4s;
+}
+
+/* TEXT */
+.overlay h3 {
+  color: #fff;
+  font-size: 20px;
+  transform: translateY(20px);
+  transition: 0.4s;
+}
+
+/* HOVER EFFECT */
+.image-wrapper:hover .overlay {
+  opacity: 1;
+}
+
+.image-wrapper:hover .overlay h3 {
+  transform: translateY(0);
+}
+
+.image-wrapper:hover .projectImage {
+  transform: scale(1.1);
+}

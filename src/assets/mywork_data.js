@@ -9,25 +9,31 @@ import project8_img from '../assets/project_8.png'
 import project9_img from '../assets/project_9.png'
 import project10_img from '../assets/project_10.png'
 import project11_img from '../assets/project_11.png'
+import Graphics from '../assets/banner/AI_thump.jpg'
+import Motion from '../assets/banner/motion2.jpg'
+import Video from '../assets/banner/video_editing2.jpg'
 
 const mywork_data = [
     {
         w_no:1,
         w_name:"Web design",
-        w_img:project1_img,
-        w_link : 'https://www.behance.net/mdimthi'
+        w_img:Motion ,
+        w_link : 'https://www.behance.net/gallery/245974569/Motion-Graphics', 
+        category: "motion" 
     },
     {
         w_no:2,
         w_name:"Web design",
-        w_img:project2_img,
-        w_link : 'https://stalwart-moonbeam-6fed0d.netlify.app'
+        w_img:Video,
+        w_link : 'https://stalwart-moonbeam-6fed0d.netlify.app',
+         category: "video" 
     },
     {
         w_no:3,
         w_name:"Web design",
-        w_img:project3_img,
-        w_link : 'https://whimsical-caramel-f5c153.netlify.app'
+        w_img:Graphics,
+        w_link : 'https://whimsical-caramel-f5c153.netlify.app',
+            category: "graphic"
     },
     {
         w_no:4,

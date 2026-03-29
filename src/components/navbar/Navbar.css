@@ -15,10 +15,15 @@
 .nav-connect {
     padding: 20px 40px ;
     border-radius: 50px;
-    background: linear-gradient(267deg, orange,blue);
+   background: linear-gradient(267deg, rgb(121, 121, 121), blue);
+
     font-size: 15px;
     cursor: pointer;
     transition: 0.5s;
+}
+.nav-connect a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 .nav-connect:hover {
     transform: scale(1.05);

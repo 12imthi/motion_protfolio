@@ -44,7 +44,7 @@
 .contact-left h1 {
   font-size: 80px;
   font-weight: 700;
-  background: linear-gradient(267deg, orange, blue);
+ background: linear-gradient(267deg, rgb(235, 235, 235), rgb(185, 185, 185));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -131,7 +131,7 @@
 
 .contact-submit {
   padding: 20px 60px;
-  background: linear-gradient(267deg, orange, blue);
+  background: linear-gradient(267deg, rgb(235, 235, 235), blue);
   color: white;
   font-size: 20px;
   border: none;

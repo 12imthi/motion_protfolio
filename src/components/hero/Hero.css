@@ -41,7 +41,7 @@ a {
 .hero-connect {
     padding: 25px 45px;
     border-radius: 50px;
-    background: linear-gradient(267deg, orange, blue);
+    background: linear-gradient(267deg, rgb(148, 85, 231), rgb(255, 255, 255));
     cursor: pointer;
     transition: 0.5s;
 }
@@ -90,4 +90,34 @@ a {
     padding: 20px 50px;
     border-radius: 40px;
   }
+}
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Button ON image */
+.banner-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: #000000;
+  color: #fff;
+
+  padding: 18px 40px;   /* 👈 increase size */
+  font-size: 18px;      /* 👈 bigger text */
+  border-radius: 40px;
+
+  text-decoration: none;
+  font-weight: 600;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
