@@ -25,7 +25,7 @@ const mywork_data = [
         w_no:2,
         w_name:"Web design",
         w_img:Video,
-        w_link : 'https://stalwart-moonbeam-6fed0d.netlify.app',
+        w_link : 'https://www.behance.net/gallery/246637265/Video_editing',
          category: "video" 
     },
     {
