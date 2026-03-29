@@ -9,7 +9,7 @@ function Footer() {
       <div className="footer-top">
         <div className="footer-top-left">
             <img src={footerLogo} alt="" style={{width: '120px'}} />
-            <p>I am a frontend developer.</p>
+            <p>I am a Motion Designer.</p>
         </div>
         <div className="footer-top-right">
             <div className="footer-email-input">
@@ -24,7 +24,7 @@ function Footer() {
       <hr />
 
       <div className="footer-bottom">
-        <div className="footer-bottom-left"> @ 2024 Imthiyaz.</div>
+        <div className="footer-bottom-left"> @ 2026 Imthiyaz.</div>
         <div className="footer-bottom-right">
             <p>Term of Services</p>
             <p>Privacy Policy</p>
