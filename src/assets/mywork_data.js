@@ -32,7 +32,7 @@ const mywork_data = [
         w_no:3,
         w_name:"Web design",
         w_img:Graphics,
-        w_link : 'https://whimsical-caramel-f5c153.netlify.app',
+        w_link : 'https://www.behance.net/gallery/227760119/Graphics_Design_workp',
             category: "graphic"
     },
     {
